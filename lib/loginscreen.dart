@@ -16,14 +16,14 @@ class _LoginScreenState extends State<LoginScreen> {
         //backgroundColor: Colors.greenAccent,
         body: SingleChildScrollView(
           child: Container(
-            padding:  EdgeInsets.only(left: 30.r, right: 30.r, top: 30.h),
+            padding:  EdgeInsets.only(left: 30.r, right: 30.r, top: 50.h),
             child: Column(
               children: [
                 //--------Circle container with icon
                 Container(
                   //margin: const EdgeInsets.all(100),
-                  height: 180.r,
-                  width: 180.r,
+                  height: 150.r,
+                  width: 150.r,
                   decoration:  BoxDecoration(
                     color: Colors.green,
                     borderRadius: BorderRadius.all(
